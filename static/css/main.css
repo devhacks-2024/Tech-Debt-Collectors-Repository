@@ -222,5 +222,8 @@ p.members {
 }
 
 .courses-list, .courses-list th, .courses-list td {
+    margin-top: 10vh;
     color: white;
 }
+
+

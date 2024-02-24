@@ -18,7 +18,6 @@
     <h2>Course Results</h2>
     <table>
         <tr>
-            <th>ID</th>
             <th>Province</th>
             <th>University</th>
             <th>External Course Name</th>
@@ -28,7 +27,6 @@
         </tr>
         {% for course in courses %}
         <tr>
-            <td>{{ course[0] }}</td>
             <td>{{ course[1] }}</td>
             <td>{{ course[2] }}</td>
             <td>{{ course[3] }}</td>
@@ -48,10 +46,6 @@
     <button type="submit" form="form" value="Generate">Generate</button><br>
 </form>
 {% endif %}
-
-
-
-
 <div class="triangle-light"></div>
 
 
