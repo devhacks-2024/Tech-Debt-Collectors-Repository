@@ -1,48 +1,60 @@
-# Welcome to .devHacks 2024!
+# Welcome to El-Opie
+Students have an option to apply for a **Letter of Permission (LOP)** so they can take courses at other universities and transfer the credit.
 
-Welcome to .devHacks 2024, an exciting hackathon event where creativity and innovation collide! We're thrilled to have you join us for this incredible journey of hacking, learning, and collaboration.
+The current *Transfer Credit Tool* on *Aurora* requires manually sifting through each faculty at each university in each province to find the desired course. This is slow and inefficient.
 
-## Event Details
+**El-Opie** offers an alternate interface where users can enter the course code of the desired course and get a list of all approved courses at other universities that can be used for a credit transfer.
 
-- **Date & Time:** February 23-24 (5:00 PM - 5:00 PM)
-- **Location:** EITC Atrium
+## Current System (Aurora)
+#### Step 1: Click Province
+![step1](screenshots\uofm1.png)
+#### Step 2: Click University
+![step2](screenshots\uofm2.png)
+#### Step 3: Click Faculty
+![step3](screenshots\uofm3.png)
+#### Step 4: See Results
+![step4](screenshots\uofm4.png)
 
-## Theme or Focus
 
-.devHacks 2024 does not have a theme this year! However, we do have prize categories. 5 of them will be announced at the day of the event. Participants are encouraged to explore innovative solutions and tackle challenges of their free reign!
+## El-Opie Interface
+#### Step 1: Main Page
+![new_step1](screenshots\ours1.png)
+#### Step 2: Enter Course Code and Click Generate
+![new_step2](screenshots\ours2.png)
+#### Step 3: Results
+![new_step3](screenshots\ours3.png)
 
-## Resources
+Use the browser back button to go back and use again.
 
-- Please head over to [devclub.ca/devhacks](https://devclub.ca/devhacks) to address any confusion that you have.
-- This git cheatsheet might be of use to you [cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf).
+## Requirements
+#### Hardware
+This project is to be run on a Windows machine.
+#### Software
+Firefox is needed for this project. Pip is also needed.
+#### Dependencies
+`pip install flask` (used by UI)
 
-## Code of Conduct
+`pip install pysqlite3` (used by db_connector.py)
 
-Please review and adhere to our [Code of Conduct](https://devclub.ca/devhacks-code-of-conduct) throughout the event. We're committed to creating a safe, inclusive, and welcoming environment for all participants.
+The following are only used by `scrape_to_sql.py` and not needed to run the project.
 
-## Submission Guidelines
+`pip install selenium`
 
-- Please add a branch called `ready-for-submission` in order to signify that you want to put your project for judging.
-- We will only accept commits on the 24 hour period of 5:00 PM - 5:00 PM from February 23 - 24.
+`pip install webdriver-manager`
 
-## Support and Assistance
+`pip install pandas`
 
-If you need assistance or have any questions during the hackathon, don't hesitate to reach out to our team at the event. We will be normally at the atrium.
+`pip install unidecode`
 
-## Acknowledgments
 
-We'd like to express our gratitude to our sponsors:
+## How To Run
+After installing dependencies above, simply run `python main.py`
 
-- [Pollard Banknote](https://www.pollardbanknote.com/)
-- [Johnston Group](https://johnstongroup.ca/)
-- [Lotlinx](https://www.lotlinx.ca/)
-- [Niche Technology](https://nicherms.com/)
-- [G3 Canada](https://www.g3.ca/)
-- [Priceline Partner Solutions](https://pricelinepartnersolutions.com/)
-- [Karve IT](https://karve.it/)
+The following will appear in the command line.
+![console](screenshots\console.png)
 
-Our volunteers who have made .devHacks 2024 possible.
+`Ctrl + click` on the link provided or copy/paste into a browser to run.
 
-Thank you for your support!
 
-Happy hacking, and best of luck to all participants! Let's make .devHacks 2024 an unforgettable experience!
+
+
