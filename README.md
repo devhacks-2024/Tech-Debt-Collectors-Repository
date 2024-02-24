@@ -19,7 +19,7 @@ The current *Transfer Credit Tool* on *Aurora* requires manually sifting through
 ## El-Opie Interface
 #### Step 1: Main Page
 ![new_step1](screenshots/ours1.png)
-#### Step 2: Enter Course Code and Click Generate
+#### Step 2: Enter Course Code and Click Generate (Some Lag)
 ![new_step2](screenshots/ours2.png)
 #### Step 3: Results
 ![new_step3](screenshots/ours3.png)
