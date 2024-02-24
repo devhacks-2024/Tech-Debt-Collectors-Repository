@@ -12,11 +12,19 @@
 
 {% block body %}
 <div class="header">
+    <img src="static/css/ship" alt="Ship" class="ship">
 </div>
 
-<form class="course">
-    <label for="uname">Course Code:</label><br>
-    <input type="text" id="uname" name="uname"><br<>
+<form class="course" id="form">
+    <label class="top-label" for="uname">Faculty Code:</label><br>
+    <input type="text" id="uname" name="uname" placeholder="E.g: COMP"><br>
+    <label for="cnumber">Course Number:</label>
+    <input type="text" id="cnumber" name="cnumber" placeholder="E.g: 3350"><br>
+    <button type="submit" form="form" value="Generate">Generate</button><br>
 </form>
+
+
+
+<p class="members">Create by: Zuhao Fang, Khaled Elgohary, Muhammed Usman Asif, Muhammed Ahmed Asif</p>
 
 {% endblock %}
