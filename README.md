@@ -9,20 +9,20 @@ The current *Transfer Credit Tool* on *Aurora* requires manually sifting through
 #### Step 1: Click Province
 ![step1](screenshots/uofm1.png)
 #### Step 2: Click University
-![step2](screenshots\uofm2.png)
+![step2](screenshots/uofm2.png)
 #### Step 3: Click Faculty
-![step3](screenshots\uofm3.png)
+![step3](screenshots/uofm3.png)
 #### Step 4: See Results
-![step4](screenshots\uofm4.png)
+![step4](screenshots/uofm4.png)
 
 
 ## El-Opie Interface
 #### Step 1: Main Page
-![new_step1](screenshots\ours1.png)
+![new_step1](screenshots/ours1.png)
 #### Step 2: Enter Course Code and Click Generate
-![new_step2](screenshots\ours2.png)
+![new_step2](screenshots/ours2.png)
 #### Step 3: Results
-![new_step3](screenshots\ours3.png)
+![new_step3](screenshots/ours3.png)
 
 Use the browser back button to go back and use again.
 
@@ -51,7 +51,7 @@ The following are only used by `scrape_to_sql.py` and not needed to run the proj
 After installing dependencies above, simply run `python main.py`
 
 The following will appear in the command line.
-![console](screenshots\console.png)
+![console](screenshots/console.png)
 
 `Ctrl + click` on the link provided or copy/paste into a browser to run.
 
