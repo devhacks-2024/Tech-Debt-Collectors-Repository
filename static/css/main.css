@@ -225,3 +225,19 @@ p.members {
     margin-top: 10vh;
     color: white;
 }
+
+    .courses-list, .courses-list th, .courses-list td {
+        /* Adding borders to cells */
+        border: 1px solid #ccc; /* Light grey border */
+    }
+    .courses-list table {
+        /* Adding border to the table */
+        border-collapse: collapse; /* Collapse borders into a single border */
+        width: 100%; /* Optional: Makes the table take up the full container width */
+    }
+    .courses-list th, .courses-list td {
+        padding: 8px; /* Adds padding inside each cell */
+        text-align: left; /* Aligns text to the left inside cells */
+    }
+
+
