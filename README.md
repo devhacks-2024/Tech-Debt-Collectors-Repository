@@ -7,7 +7,7 @@ The current *Transfer Credit Tool* on *Aurora* requires manually sifting through
 
 ## Current System (Aurora)
 #### Step 1: Click Province
-![step1](screenshots\uofm1.png)
+![step1](screenshots/uofm1.png)
 #### Step 2: Click University
 ![step2](screenshots\uofm2.png)
 #### Step 3: Click Faculty
