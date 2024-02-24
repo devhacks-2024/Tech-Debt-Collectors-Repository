@@ -136,12 +136,12 @@ input:hover{
 
 @keyframes formGlow {
     0% {
-        box-shadow: 0 0 10px rgba(173, 216, 230, 0.5); /* Soft blue glow */
+        box-shadow: 0 0 10px rgba(0, 191, 255, 0.5); /* Vibrant blue glow */
     }
     50% {
-        box-shadow: 0 0 20px rgba(173, 216, 230, 0.7); /* Increase intensity */
+        box-shadow: 0 0 20px rgba(0, 191, 255, 0.7); /* Increase intensity */
     }
     100% {
-        box-shadow: 0 0 10px rgba(173, 216, 230, 0.5); /* Return to initial glow */
+        box-shadow: 0 0 10px rgba(0, 191, 255, 0.5); /* Return to initial glow */
     }
 }
