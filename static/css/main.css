@@ -37,6 +37,41 @@ body{
     animation: moveHeader 2s ease-in-out forwards;
 }
 
+form {
+    text-align: center;
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    background: rgba(117, 113, 113, 0.3);
+    backdrop-filter: blur(20px);
+    animation: formGlow 6s ease-in-out infinite;
+}
+
+label {
+    display:block;
+    margin-bottom: 10px;
+    color:white;
+}
+input {
+    width: 75%;
+    padding: 10px;
+    border: none; /* Remove border */
+    border-radius: 5px;
+    background-color: white; /* Semi-transparent background */
+    color: rgb(0, 0, 0); 
+}
+label,input{
+    display: block;
+    margin: 0 auto;
+}
+
+input:hover{
+    transform: scale(1.05);
+}
 
 @keyframes bounceAndFade {
     0% {
@@ -95,5 +130,18 @@ body{
     }
     100% {
         text-shadow: 0 0 20px rgba(0, 255, 0, 0.8), 0 0 40px rgba(0, 136, 255, 0.6), 0 0 60px rgba(0, 255, 255, 0.4), 0 0 80px rgba(0, 255, 0, 0.2);
+    }
+}
+
+
+@keyframes formGlow {
+    0% {
+        box-shadow: 0 0 10px rgba(173, 216, 230, 0.5); /* Soft blue glow */
+    }
+    50% {
+        box-shadow: 0 0 20px rgba(173, 216, 230, 0.7); /* Increase intensity */
+    }
+    100% {
+        box-shadow: 0 0 10px rgba(173, 216, 230, 0.5); /* Return to initial glow */
     }
 }
